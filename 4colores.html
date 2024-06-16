@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>4colores</title>
 </head>
-<body>
-    <div id="azul" style="width: 200px; height: 200px; background-color: blue;"></div>
-    <div id="rojo" style="width: 200px; height: 200px; background-color: red;"></div>
-    <div id="verde" style="width: 200px; height: 200px; background-color: green;"></div>
-    <div id="amarillo" style="width: 200px; height: 200px; background-color: yellow;"></div>
 
-    <div id="key" style="width: 200px; height: 200px; background-color: white; border: 1px solid black;"></div>
+<body style="display: flex; flex-direction: column; justify-content: center;">
+    <div style="display: flex; justify-content: center;">
+        <div id="azul" style="width: 200px; height: 200px; background-color: blue;"></div>
+        <div id="rojo" style="width: 200px; height: 200px; background-color: red;"></div>
+        <div id="verde" style="width: 200px; height: 200px; background-color: green;"></div>
+        <div id="amarillo" style="width: 200px; height: 200px; background-color: yellow;"></div>
 
-    <div id="contenedor" style="width: 200px; height: 200px; background-color: white;"></div>
+        <div id="key" style="width: 200px; height: 200px; background-color: white; border: 1px solid black;"></div>
 
-    <script src="./assets/js/4colores.js"></script>    
+        <div id="contenedor" style="width: 200px; height: 200px; background-color: white;"></div>
+    </div>
+
+    <div style="display: flex; justify-content: center; margin-top: 20px;">
+        <a href="./index.html"><button>Ejercicio 1</button></a>
+        <a href="./index2.html"><button>Ejercicio 2</button></a>
+        <a href="./pintar.html"><button>Ejercicio 3</button></a>
+    </div>
+
+    <div style="text-align: center;">
+        <p>Al hacer click en cualquiera de los 4 colores el backgroundColor pasará a ser negro</p>
+        <p>Al presionar la letra "a" el cuadrado a la derecha del amarillo pasa a ser rosa</p>
+        <p>Al presionar la letra "s" el cuadrado a la derecha del amarillo pasa a ser naranja</p>
+        <p>Al presionar la letra "d" el cuadrado a la derecha del amarillo pasa a ser celeste</p>
+        <p>Al presionar la letra "q" el cuadrado a la derecha del blanco con borde negro se crea un nuevo cuadro de color morado</p>
+        <p>Al presionar la letra "w" el cuadrado a la derecha del blanco con borde negro se crea un nuevo cuadro de color gris</p>
+        <p>Al presionar la letra "e" el cuadrado a la derecha del blanco con borde negro se crea un nuevo cuadro de color café</p>
+
+    </div>
+
+    <script src="./assets/js/4colores.js"></script>
 </body>
+
 </html>

@@ -25,3 +25,15 @@ const ele = document.getElementById("ele1")
 ele.addEventListener("click", function(){
     pintar("yellow")
 }); 
+
+/* Misma función anterior pero sin argumento, con esto por defecto al hacer click el color de fondo será verde
+
+function pintar(color = "green") {
+    ele.style.backgroundColor = color
+}
+const ele = document.getElementById("ele1")
+ele.addEventListener("click", function(){
+    pintar()
+}); 
+
+*/
